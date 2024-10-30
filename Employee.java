@@ -13,6 +13,6 @@ public class Employee implements Person {
     public void getInfo() {
         System.out.println("Name: " + name);
         System.out.println("Surname: " + surname);
-        System.out.println("Age: " + age);
+        System.out.println("Year to work: " + (62 - age));
     }
 }
